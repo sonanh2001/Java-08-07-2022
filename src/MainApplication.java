@@ -14,7 +14,7 @@ public class MainApplication {
         studentManage.showInfo();
     }
     public static void searchStudent(Scanner scanner,StudentManage studentManage){
-        String keyword= scanner.nextLine();;
+        String keyword= scanner.nextLine();
         studentManage.findByFullNameContaining(keyword);
     }
     public static void main(String[] args) {
